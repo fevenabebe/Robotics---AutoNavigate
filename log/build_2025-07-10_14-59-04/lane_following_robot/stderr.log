@@ -1,0 +1,5 @@
+  File "/home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/controller.py", line 71
+    if self.state == Rob
+                        ^
+SyntaxError: expected ':'
+

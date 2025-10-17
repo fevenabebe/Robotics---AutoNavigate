@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="zigzag_lane_world">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Zigzag Lanes: Alternating Green and Yellow -->
+    <model name="zigzag_lane">
+      <static>true</static>
+      <link name="zigzag_lane_link">
+
+        <!-- Lane 0 - Green -->
+        <visual name="lane_section_0">
+          <pose>0.0 0.8 0.01 0 0 0</pose>
+          <geometry>
+            <box><size>2.0 0.5 0.01</size></box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+
+        <!-- Lane 1 - Yellow -->
+        <visual name="lane_section_1">
+          <pose>2.2 -0.8 0.01 0 0 0</pose>
+          <geometry>
+            <box><size>2.0 0.5 0.01</size></box>
+          </geometry>
+          <material>
+            <ambient>1 1 0 1</ambient>
+            <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+
+        <!-- Lane 2 - Green -->
+        <visual name="lane_section_2">
+          <pose>4.4 0.8 0.01 0 0 0</pose>
+          <geometry>
+            <box><size>2.0 0.5 0.01</size></box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+
+        <!-- Lane 3 - Yellow -->
+        <visual name="lane_section_3">
+          <pose>6.6 -0.8 0.01 0 0 0</pose>
+          <geometry>
+            <box><size>2.0 0.5 0.01</size></box>
+          </geometry>
+          <material>
+            <ambient>1 1 0 1</ambient>
+            <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+
+        <!-- Lane 4 - Green -->
+        <visual name="lane_section_4">
+          <pose>8.8 0.8 0.01 0 0 0</pose>
+          <geometry>
+            <box><size>2.0 0.5 0.01</size></box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+
+        <!-- Lane 5 - Yellow -->
+        <visual name="lane_section_5">
+          <pose>11.0 -0.8 0.01 0 0 0</pose>
+          <geometry>
+            <box><size>2.0 0.5 0.01</size></box>
+          </geometry>
+          <material>
+            <ambient>1 1 0 1</ambient>
+            <diffuse>1 1 0 1</diffuse>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- Obstacle -->
+    <model name="obstacle_box">
+      <static>true</static>
+      <link name="obstacle_link">
+        <pose>2.2 -0.8 0.25 0 0 0</pose> <!-- Placed on yellow lane -->
+        <collision name="collision">
+          <geometry>
+            <box><size>0.5 0.5 0.5</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>0.5 0.5 0.5</size></box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

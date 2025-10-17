@@ -1,0 +1,7 @@
+[console_scripts]
+camera_driver = lane_following_robot.camera_driver:main
+controller = lane_following_robot.controller:main
+image_processor = lane_following_robot.image_processor:main
+spawn_robot = lane_following_robot.spawn_robot:main
+visualizer = lane_following_robot.visualizer:main
+

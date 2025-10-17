@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/lane_following_robot/lane_following_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/lane_following_robot/lane_following_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/lane_following_robot/lane_following_robot.egg-info/entry_points.txt
+writing requirements to ../../build/lane_following_robot/lane_following_robot.egg-info/requires.txt
+writing top-level names to ../../build/lane_following_robot/lane_following_robot.egg-info/top_level.txt
+reading manifest file '../../build/lane_following_robot/lane_following_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/lane_following_robot/lane_following_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/lane_following.launch.py -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/launch
+running install_egg_info
+removing '/home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/lane_following_robot/lane_following_robot.egg-info to /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_driver script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+Installing controller script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+Installing image_processor script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+Installing spawn_robot script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+Installing visualizer script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+writing list of installed files to '/home/feven/lane_following_ws/build/lane_following_robot/install.log'

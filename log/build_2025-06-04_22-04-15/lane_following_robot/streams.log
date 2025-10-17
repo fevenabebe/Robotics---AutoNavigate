@@ -1,0 +1,79 @@
+[0.360s] Invoking command in '/home/feven/lane_following_ws/src/lane_following_robot': PYTHONPATH=/home/feven/lane_following_ws/build/lane_following_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lane_following_robot build --build-base /home/feven/lane_following_ws/build/lane_following_robot/build install --record /home/feven/lane_following_ws/build/lane_following_robot/install.log --single-version-externally-managed install_data
+[0.522s] running egg_info
+[0.522s] creating ../../build/lane_following_robot/lane_following_robot.egg-info
+[0.522s] writing ../../build/lane_following_robot/lane_following_robot.egg-info/PKG-INFO
+[0.523s] writing dependency_links to ../../build/lane_following_robot/lane_following_robot.egg-info/dependency_links.txt
+[0.523s] writing entry points to ../../build/lane_following_robot/lane_following_robot.egg-info/entry_points.txt
+[0.523s] writing requirements to ../../build/lane_following_robot/lane_following_robot.egg-info/requires.txt
+[0.523s] writing top-level names to ../../build/lane_following_robot/lane_following_robot.egg-info/top_level.txt
+[0.523s] writing manifest file '../../build/lane_following_robot/lane_following_robot.egg-info/SOURCES.txt'
+[0.524s] reading manifest file '../../build/lane_following_robot/lane_following_robot.egg-info/SOURCES.txt'
+[0.525s] writing manifest file '../../build/lane_following_robot/lane_following_robot.egg-info/SOURCES.txt'
+[0.525s] running build
+[0.525s] running build_py
+[0.525s] creating /home/feven/lane_following_ws/build/lane_following_robot/build
+[0.526s] creating /home/feven/lane_following_ws/build/lane_following_robot/build/lib
+[0.526s] creating /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/controllergray.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/image_processor.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/controller.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/spawn_robot.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/visualizer.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/camera_driver2.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/image_processorgray.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/test_cv_display.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/camera_driver.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/spawn_robotAfterRotate.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] copying lane_following_robot/__init__.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.526s] running install
+[0.526s] running install_lib
+[0.527s] creating /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.527s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/controllergray.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.527s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/image_processor.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.527s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/controller.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.527s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/spawn_robot.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.527s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/visualizer.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.528s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/camera_driver2.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.528s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/image_processorgray.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.528s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/test_cv_display.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.528s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/camera_driver.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.528s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/spawn_robotAfterRotate.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.528s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/__init__.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.528s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/controllergray.py to controllergray.cpython-310.pyc
+[0.530s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/image_processor.py to image_processor.cpython-310.pyc
+[0.532s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/controller.py to controller.cpython-310.pyc
+[0.533s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/spawn_robot.py to spawn_robot.cpython-310.pyc
+[0.533s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/visualizer.py to visualizer.cpython-310.pyc
+[0.534s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/camera_driver2.py to camera_driver2.cpython-310.pyc
+[0.535s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/image_processorgray.py to image_processorgray.cpython-310.pyc
+[0.537s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/test_cv_display.py to test_cv_display.cpython-310.pyc
+[0.537s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/camera_driver.py to camera_driver.cpython-310.pyc
+[0.538s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/spawn_robotAfterRotate.py to spawn_robotAfterRotate.cpython-310.pyc
+[0.538s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/__init__.py to __init__.cpython-310.pyc
+[0.538s] running install_data
+[0.538s] creating /home/feven/lane_following_ws/install/lane_following_robot/share/ament_index
+[0.538s] creating /home/feven/lane_following_ws/install/lane_following_robot/share/ament_index/resource_index
+[0.538s] creating /home/feven/lane_following_ws/install/lane_following_robot/share/ament_index/resource_index/packages
+[0.538s] copying resource/lane_following_robot -> /home/feven/lane_following_ws/install/lane_following_robot/share/ament_index/resource_index/packages
+[0.538s] copying package.xml -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot
+[0.539s] creating /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/launch
+[0.539s] copying launch/lane_following.launch.py -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/launch
+[0.539s] creating /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/worlds
+[0.539s] copying worlds/lane_worldYellowGreen.world -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/worlds
+[0.539s] copying worlds/lane_world.world -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/worlds
+[0.539s] creating /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/models
+[0.539s] creating /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/models/lane_bot
+[0.539s] copying models/lane_bot/modelBackward.urdf -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/models/lane_bot
+[0.539s] copying models/lane_bot/model.urdf -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/models/lane_bot
+[0.539s] copying models/lane_bot/modelOld.urdf -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/models/lane_bot
+[0.539s] copying models/lane_bot/model.config -> /home/feven/lane_following_ws/install/lane_following_robot/share/lane_following_robot/models/lane_bot
+[0.539s] running install_egg_info
+[0.541s] Copying ../../build/lane_following_robot/lane_following_robot.egg-info to /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot-0.0.0-py3.10.egg-info
+[0.541s] running install_scripts
+[0.560s] Installing camera_driver script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.560s] Installing controller script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.560s] Installing image_processor script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.560s] Installing spawn_robot script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.560s] Installing visualizer script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.560s] writing list of installed files to '/home/feven/lane_following_ws/build/lane_following_robot/install.log'
+[0.585s] Invoked command in '/home/feven/lane_following_ws/src/lane_following_robot' returned '0': PYTHONPATH=/home/feven/lane_following_ws/build/lane_following_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lane_following_robot build --build-base /home/feven/lane_following_ws/build/lane_following_robot/build install --record /home/feven/lane_following_ws/build/lane_following_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2029 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="curved_lane_world">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <model name='lane_segment_0_L'>
+      <static>true</static>
+      <pose>7.20 0.00 0.02 0 0 1.57</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_0_R'>
+      <static>true</static>
+      <pose>8.80 0.00 0.02 0 0 1.57</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_1_L'>
+      <static>true</static>
+      <pose>7.16 0.75 0.02 0 0 1.68</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_1_R'>
+      <static>true</static>
+      <pose>8.75 0.92 0.02 0 0 1.68</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_2_L'>
+      <static>true</static>
+      <pose>7.04 1.50 0.02 0 0 1.78</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_2_R'>
+      <static>true</static>
+      <pose>8.61 1.83 0.02 0 0 1.78</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_3_L'>
+      <static>true</static>
+      <pose>6.85 2.22 0.02 0 0 1.88</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_3_R'>
+      <static>true</static>
+      <pose>8.37 2.72 0.02 0 0 1.88</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_4_L'>
+      <static>true</static>
+      <pose>6.58 2.93 0.02 0 0 1.99</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_4_R'>
+      <static>true</static>
+      <pose>8.04 3.58 0.02 0 0 1.99</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_5_L'>
+      <static>true</static>
+      <pose>6.24 3.60 0.02 0 0 2.09</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_5_R'>
+      <static>true</static>
+      <pose>7.62 4.40 0.02 0 0 2.09</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_6_L'>
+      <static>true</static>
+      <pose>5.82 4.23 0.02 0 0 2.20</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_6_R'>
+      <static>true</static>
+      <pose>7.12 5.17 0.02 0 0 2.20</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_7_L'>
+      <static>true</static>
+      <pose>5.35 4.82 0.02 0 0 2.30</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_7_R'>
+      <static>true</static>
+      <pose>6.54 5.89 0.02 0 0 2.30</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_8_L'>
+      <static>true</static>
+      <pose>4.82 5.35 0.02 0 0 2.41</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_8_R'>
+      <static>true</static>
+      <pose>5.89 6.54 0.02 0 0 2.41</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_9_L'>
+      <static>true</static>
+      <pose>4.23 5.82 0.02 0 0 2.51</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_9_R'>
+      <static>true</static>
+      <pose>5.17 7.12 0.02 0 0 2.51</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_10_L'>
+      <static>true</static>
+      <pose>3.60 6.24 0.02 0 0 2.62</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_10_R'>
+      <static>true</static>
+      <pose>4.40 7.62 0.02 0 0 2.62</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_11_L'>
+      <static>true</static>
+      <pose>2.93 6.58 0.02 0 0 2.72</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_11_R'>
+      <static>true</static>
+      <pose>3.58 8.04 0.02 0 0 2.72</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_12_L'>
+      <static>true</static>
+      <pose>2.22 6.85 0.02 0 0 2.83</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_12_R'>
+      <static>true</static>
+      <pose>2.72 8.37 0.02 0 0 2.83</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_13_L'>
+      <static>true</static>
+      <pose>1.50 7.04 0.02 0 0 2.93</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_13_R'>
+      <static>true</static>
+      <pose>1.83 8.61 0.02 0 0 2.93</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_14_L'>
+      <static>true</static>
+      <pose>0.75 7.16 0.02 0 0 3.04</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_14_R'>
+      <static>true</static>
+      <pose>0.92 8.75 0.02 0 0 3.04</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_15_L'>
+      <static>true</static>
+      <pose>0.00 7.20 0.02 0 0 3.14</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_15_R'>
+      <static>true</static>
+      <pose>0.00 8.80 0.02 0 0 3.14</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_16_L'>
+      <static>true</static>
+      <pose>-0.75 7.16 0.02 0 0 3.25</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_16_R'>
+      <static>true</static>
+      <pose>-0.92 8.75 0.02 0 0 3.25</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_17_L'>
+      <static>true</static>
+      <pose>-1.50 7.04 0.02 0 0 3.35</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_17_R'>
+      <static>true</static>
+      <pose>-1.83 8.61 0.02 0 0 3.35</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_18_L'>
+      <static>true</static>
+      <pose>-2.22 6.85 0.02 0 0 3.46</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_18_R'>
+      <static>true</static>
+      <pose>-2.72 8.37 0.02 0 0 3.46</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_19_L'>
+      <static>true</static>
+      <pose>-2.93 6.58 0.02 0 0 3.56</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_19_R'>
+      <static>true</static>
+      <pose>-3.58 8.04 0.02 0 0 3.56</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_20_L'>
+      <static>true</static>
+      <pose>-3.60 6.24 0.02 0 0 3.67</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_20_R'>
+      <static>true</static>
+      <pose>-4.40 7.62 0.02 0 0 3.67</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_21_L'>
+      <static>true</static>
+      <pose>-4.23 5.82 0.02 0 0 3.77</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_21_R'>
+      <static>true</static>
+      <pose>-5.17 7.12 0.02 0 0 3.77</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_22_L'>
+      <static>true</static>
+      <pose>-4.82 5.35 0.02 0 0 3.87</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_22_R'>
+      <static>true</static>
+      <pose>-5.89 6.54 0.02 0 0 3.87</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_23_L'>
+      <static>true</static>
+      <pose>-5.35 4.82 0.02 0 0 3.98</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_23_R'>
+      <static>true</static>
+      <pose>-6.54 5.89 0.02 0 0 3.98</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_24_L'>
+      <static>true</static>
+      <pose>-5.82 4.23 0.02 0 0 4.08</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='lane_segment_24_R'>
+      <static>true</static>
+      <pose>-7.12 5.17 0.02 0 0 4.08</pose>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.1 0.02</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="lane_seg_1_left">
+      <static>true</static>
+      <pose>15.00 -0.75 0 0 0 1.57</pose>
+      <link name="lane_link_1_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_1_right">
+      <static>true</static>
+      <pose>15.00 0.75 0 0 0 1.57</pose>
+      <link name="lane_link_1_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_2_left">
+      <static>true</static>
+      <pose>14.67 2.37 0 0 0 1.78</pose>
+      <link name="lane_link_2_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_2_right">
+      <static>true</static>
+      <pose>14.67 3.87 0 0 0 1.78</pose>
+      <link name="lane_link_2_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_3_left">
+      <static>true</static>
+      <pose>13.70 5.35 0 0 0 1.99</pose>
+      <link name="lane_link_3_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_3_right">
+      <static>true</static>
+      <pose>13.70 6.85 0 0 0 1.99</pose>
+      <link name="lane_link_3_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_4_left">
+      <static>true</static>
+      <pose>12.14 8.07 0 0 0 2.20</pose>
+      <link name="lane_link_4_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_4_right">
+      <static>true</static>
+      <pose>12.14 9.57 0 0 0 2.20</pose>
+      <link name="lane_link_4_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_5_left">
+      <static>true</static>
+      <pose>10.04 10.40 0 0 0 2.41</pose>
+      <link name="lane_link_5_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_5_right">
+      <static>true</static>
+      <pose>10.04 11.90 0 0 0 2.41</pose>
+      <link name="lane_link_5_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_6_left">
+      <static>true</static>
+      <pose>7.50 12.24 0 0 0 2.62</pose>
+      <link name="lane_link_6_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_6_right">
+      <static>true</static>
+      <pose>7.50 13.74 0 0 0 2.62</pose>
+      <link name="lane_link_6_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_7_left">
+      <static>true</static>
+      <pose>4.64 13.52 0 0 0 2.83</pose>
+      <link name="lane_link_7_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_7_right">
+      <static>true</static>
+      <pose>4.64 15.02 0 0 0 2.83</pose>
+      <link name="lane_link_7_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_8_left">
+      <static>true</static>
+      <pose>1.57 14.17 0 0 0 3.04</pose>
+      <link name="lane_link_8_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_8_right">
+      <static>true</static>
+      <pose>1.57 15.67 0 0 0 3.04</pose>
+      <link name="lane_link_8_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_9_left">
+      <static>true</static>
+      <pose>-1.57 14.17 0 0 0 3.25</pose>
+      <link name="lane_link_9_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_9_right">
+      <static>true</static>
+      <pose>-1.57 15.67 0 0 0 3.25</pose>
+      <link name="lane_link_9_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_10_left">
+      <static>true</static>
+      <pose>-4.64 13.52 0 0 0 3.46</pose>
+      <link name="lane_link_10_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_10_right">
+      <static>true</static>
+      <pose>-4.64 15.02 0 0 0 3.46</pose>
+      <link name="lane_link_10_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_11_left">
+      <static>true</static>
+      <pose>-7.50 12.24 0 0 0 3.67</pose>
+      <link name="lane_link_11_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_11_right">
+      <static>true</static>
+      <pose>-7.50 13.74 0 0 0 3.67</pose>
+      <link name="lane_link_11_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_12_left">
+      <static>true</static>
+      <pose>-10.04 10.40 0 0 0 3.87</pose>
+      <link name="lane_link_12_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_12_right">
+      <static>true</static>
+      <pose>-10.04 11.90 0 0 0 3.87</pose>
+      <link name="lane_link_12_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_13_left">
+      <static>true</static>
+      <pose>-12.14 8.07 0 0 0 4.08</pose>
+      <link name="lane_link_13_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_13_right">
+      <static>true</static>
+      <pose>-12.14 9.57 0 0 0 4.08</pose>
+      <link name="lane_link_13_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_14_left">
+      <static>true</static>
+      <pose>-13.70 5.35 0 0 0 4.29</pose>
+      <link name="lane_link_14_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_14_right">
+      <static>true</static>
+      <pose>-13.70 6.85 0 0 0 4.29</pose>
+      <link name="lane_link_14_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_15_left">
+      <static>true</static>
+      <pose>-14.67 2.37 0 0 0 4.50</pose>
+      <link name="lane_link_15_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_15_right">
+      <static>true</static>
+      <pose>-14.67 3.87 0 0 0 4.50</pose>
+      <link name="lane_link_15_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_16_left">
+      <static>true</static>
+      <pose>-15.00 -0.75 0 0 0 4.71</pose>
+      <link name="lane_link_16_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_16_right">
+      <static>true</static>
+      <pose>-15.00 0.75 0 0 0 4.71</pose>
+      <link name="lane_link_16_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_17_left">
+      <static>true</static>
+      <pose>-14.67 -3.87 0 0 0 4.92</pose>
+      <link name="lane_link_17_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_17_right">
+      <static>true</static>
+      <pose>-14.67 -2.37 0 0 0 4.92</pose>
+      <link name="lane_link_17_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_18_left">
+      <static>true</static>
+      <pose>-13.70 -6.85 0 0 0 5.13</pose>
+      <link name="lane_link_18_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_18_right">
+      <static>true</static>
+      <pose>-13.70 -5.35 0 0 0 5.13</pose>
+      <link name="lane_link_18_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_19_left">
+      <static>true</static>
+      <pose>-12.14 -9.57 0 0 0 5.34</pose>
+      <link name="lane_link_19_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_19_right">
+      <static>true</static>
+      <pose>-12.14 -8.07 0 0 0 5.34</pose>
+      <link name="lane_link_19_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_20_left">
+      <static>true</static>
+      <pose>-10.04 -11.90 0 0 0 5.55</pose>
+      <link name="lane_link_20_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_20_right">
+      <static>true</static>
+      <pose>-10.04 -10.40 0 0 0 5.55</pose>
+      <link name="lane_link_20_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_21_left">
+      <static>true</static>
+      <pose>-7.50 -13.74 0 0 0 5.76</pose>
+      <link name="lane_link_21_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_21_right">
+      <static>true</static>
+      <pose>-7.50 -12.24 0 0 0 5.76</pose>
+      <link name="lane_link_21_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_22_left">
+      <static>true</static>
+      <pose>-4.64 -15.02 0 0 0 5.97</pose>
+      <link name="lane_link_22_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_22_right">
+      <static>true</static>
+      <pose>-4.64 -13.52 0 0 0 5.97</pose>
+      <link name="lane_link_22_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_23_left">
+      <static>true</static>
+      <pose>-1.57 -15.67 0 0 0 6.18</pose>
+      <link name="lane_link_23_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_23_right">
+      <static>true</static>
+      <pose>-1.57 -14.17 0 0 0 6.18</pose>
+      <link name="lane_link_23_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_24_left">
+      <static>true</static>
+      <pose>1.57 -15.67 0 0 0 6.39</pose>
+      <link name="lane_link_24_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_24_right">
+      <static>true</static>
+      <pose>1.57 -14.17 0 0 0 6.39</pose>
+      <link name="lane_link_24_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_25_left">
+      <static>true</static>
+      <pose>4.64 -15.02 0 0 0 6.60</pose>
+      <link name="lane_link_25_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_25_right">
+      <static>true</static>
+      <pose>4.64 -13.52 0 0 0 6.60</pose>
+      <link name="lane_link_25_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_26_left">
+      <static>true</static>
+      <pose>7.50 -13.74 0 0 0 6.81</pose>
+      <link name="lane_link_26_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_26_right">
+      <static>true</static>
+      <pose>7.50 -12.24 0 0 0 6.81</pose>
+      <link name="lane_link_26_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_27_left">
+      <static>true</static>
+      <pose>10.04 -11.90 0 0 0 7.02</pose>
+      <link name="lane_link_27_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_27_right">
+      <static>true</static>
+      <pose>10.04 -10.40 0 0 0 7.02</pose>
+      <link name="lane_link_27_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_28_left">
+      <static>true</static>
+      <pose>12.14 -9.57 0 0 0 7.23</pose>
+      <link name="lane_link_28_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_28_right">
+      <static>true</static>
+      <pose>12.14 -8.07 0 0 0 7.23</pose>
+      <link name="lane_link_28_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_29_left">
+      <static>true</static>
+      <pose>13.70 -6.85 0 0 0 7.44</pose>
+      <link name="lane_link_29_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_29_right">
+      <static>true</static>
+      <pose>13.70 -5.35 0 0 0 7.44</pose>
+      <link name="lane_link_29_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="lane_seg_30_left">
+      <static>true</static>
+      <pose>14.67 -3.87 0 0 0 7.64</pose>
+      <link name="lane_link_30_left">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="lane_seg_30_right">
+      <static>true</static>
+      <pose>14.67 -2.37 0 0 0 7.64</pose>
+      <link name="lane_link_30_right">
+        <visual name="segment">
+          <pose>0 0 0.02 0 0 0</pose>
+          <geometry><box><size>0.8 0.15 0.01</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="destination_zone">
+      <pose>0 0 0 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

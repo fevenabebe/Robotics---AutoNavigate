@@ -1,0 +1,28 @@
+[0.328s] Invoking command in '/home/feven/lane_following_ws/src/lane_following_robot': PYTHONPATH=/home/feven/lane_following_ws/build/lane_following_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lane_following_robot build --build-base /home/feven/lane_following_ws/build/lane_following_robot/build install --record /home/feven/lane_following_ws/build/lane_following_robot/install.log --single-version-externally-managed install_data
+[0.453s] running egg_info
+[0.454s] writing ../../build/lane_following_robot/lane_following_robot.egg-info/PKG-INFO
+[0.454s] writing dependency_links to ../../build/lane_following_robot/lane_following_robot.egg-info/dependency_links.txt
+[0.454s] writing entry points to ../../build/lane_following_robot/lane_following_robot.egg-info/entry_points.txt
+[0.454s] writing requirements to ../../build/lane_following_robot/lane_following_robot.egg-info/requires.txt
+[0.454s] writing top-level names to ../../build/lane_following_robot/lane_following_robot.egg-info/top_level.txt
+[0.455s] reading manifest file '../../build/lane_following_robot/lane_following_robot.egg-info/SOURCES.txt'
+[0.457s] writing manifest file '../../build/lane_following_robot/lane_following_robot.egg-info/SOURCES.txt'
+[0.457s] running build
+[0.457s] running build_py
+[0.457s] copying lane_following_robot/controller.py -> /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot
+[0.458s] running install
+[0.458s] running install_lib
+[0.459s] copying /home/feven/lane_following_ws/build/lane_following_robot/build/lib/lane_following_robot/controller.py -> /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot
+[0.459s] byte-compiling /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot/controller.py to controller.cpython-310.pyc
+[0.461s] running install_data
+[0.461s] running install_egg_info
+[0.462s] removing '/home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.462s] Copying ../../build/lane_following_robot/lane_following_robot.egg-info to /home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages/lane_following_robot-0.0.0-py3.10.egg-info
+[0.463s] running install_scripts
+[0.477s] Installing camera_driver script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.477s] Installing controller script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.477s] Installing image_processor script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.477s] Installing spawn_robot script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.477s] Installing visualizer script to /home/feven/lane_following_ws/install/lane_following_robot/lib/lane_following_robot
+[0.477s] writing list of installed files to '/home/feven/lane_following_ws/build/lane_following_robot/install.log'
+[0.496s] Invoked command in '/home/feven/lane_following_ws/src/lane_following_robot' returned '0': PYTHONPATH=/home/feven/lane_following_ws/build/lane_following_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feven/lane_following_ws/install/lane_following_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lane_following_robot build --build-base /home/feven/lane_following_ws/build/lane_following_robot/build install --record /home/feven/lane_following_ws/build/lane_following_robot/install.log --single-version-externally-managed install_data
