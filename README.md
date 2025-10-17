@@ -3,7 +3,7 @@
 This repository contains the code and resources for an **autonomous lane-following robot** project.
 
 ## Repository Structure
-
+```
 Robotics---AutoNavigate/
 │
 ├── build/ # Build files for the project
@@ -38,7 +38,7 @@ Robotics---AutoNavigate/
 │ ├── modelBackward.urdf
 │ └── modelOld.urdf
 ├── gzserver_output.log # Output log from Gazebo server
-
+```
 markdown
 Copy code
 
